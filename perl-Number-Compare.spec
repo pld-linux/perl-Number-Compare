@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Number
-%define	pnam	Compare
+%define		pdir	Number
+%define		pnam	Compare
 Summary:	Number::Compare - numeric comparisons
 Summary(pl):	Number::Compare - porównywanie liczb
 Name:		perl-Number-Compare

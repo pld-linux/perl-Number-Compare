@@ -28,7 +28,7 @@ któr± mo¿na wywo³aæ ponownie dla porównywanej warto¶ci.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

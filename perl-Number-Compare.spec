@@ -9,7 +9,7 @@ Summary:	Number::Compare - numeric comparisons
 Summary(pl):	Number::Compare - porównywanie liczb
 Name:		perl-Number-Compare
 Version:	0.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

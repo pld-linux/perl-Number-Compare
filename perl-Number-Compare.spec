@@ -26,7 +26,7 @@ któr± mo¿na wywo³aæ ponownie dla porównywanej warto¶ci.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

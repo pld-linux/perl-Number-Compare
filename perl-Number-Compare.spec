@@ -6,7 +6,7 @@
 %define		pdir	Number
 %define		pnam	Compare
 Summary:	Number::Compare - numeric comparisons
-Summary(pl):	Number::Compare - porównywanie liczb
+Summary(pl.UTF-8):   Number::Compare - porÃ³wnywanie liczb
 Name:		perl-Number-Compare
 Version:	0.01
 Release:	3
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Number::Compare compiles a simple comparison to an anonymous
 subroutine, which you can call with a value to be tested again.
 
-%description -l pl
-Number::Compare kompiluje proste porównanie do anonimowej biblioteki,
-któr± mo¿na wywo³aæ ponownie dla porównywanej warto¶ci.
+%description -l pl.UTF-8
+Number::Compare kompiluje proste porÃ³wnanie do anonimowej biblioteki,
+ktÃ³rÄ… moÅ¼na wywoÅ‚aÄ‡ ponownie dla porÃ³wnywanej wartoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

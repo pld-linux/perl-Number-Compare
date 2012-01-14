@@ -8,13 +8,13 @@
 Summary:	Number::Compare - numeric comparisons
 Summary(pl.UTF-8):	Number::Compare - porównywanie liczb
 Name:		perl-Number-Compare
-Version:	0.01
-Release:	4
+Version:	0.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Number/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	519a4434e35033e9bd034d27cd2fd299
+# Source0-md5:	ded4085a8fc96328742785574ca65208
 URL:		http://search.cpan.org/dist/Number-Compare/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
